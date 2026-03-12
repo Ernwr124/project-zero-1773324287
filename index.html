@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam Store Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        body {
+            background-color: #1b2838;
+            color: #c6d4df;
+            font-family: "Motiva Sans", Arial, Helvetica, sans-serif;
+            margin: 0;
+            overflow-x: hidden;
+        }
+        ::-webkit-scrollbar {
+            width: 12px;
+            background: #171a21;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #3d4450;
+            border-radius: 6px;
+        }
+        .steam-gradient {
+            background: linear-gradient(to right, #06bfff 0%, #2d73ff 100%);
+        }
+        .nav-gradient {
+            background: rgba(23, 26, 33, 0.95);
+        }
+        .hero-overlay {
+            background: linear-gradient(to right, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 60%);
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel" data-type="module" src="app.tsx"></script>
+</body>
+</html>
